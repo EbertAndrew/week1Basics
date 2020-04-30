@@ -1,0 +1,35 @@
+h1, h3, h5{
+    color: violet;
+    text-align: center;
+}
+
+
+
+h2{
+        
+}
+.contentLeft{
+    text-align: left;
+}
+
+h4{
+    
+}
+
+.contentRight{
+    text-align: right;
+}
+p{
+    font-style: italic;
+    align-content: center;
+}
+
+.p{
+    text-transform: capitalize;
+    color: seagreen;
+}
+
+.change{
+    color: red;
+}
+
