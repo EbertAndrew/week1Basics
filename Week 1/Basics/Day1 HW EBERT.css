@@ -50,7 +50,7 @@ nav ul li ul {
     background-color: wheat;
 }
 
-h1 {
+h1, h2, h3, h4 {
     color: steelblue;
 }
 h5{

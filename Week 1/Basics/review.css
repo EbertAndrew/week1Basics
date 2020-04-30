@@ -1,0 +1,20 @@
+/* Basic CSS Rule for element This would apply to all H1 elements on the page. Only H1 elements would apply to this rule */
+
+h1{
+    color: blue;
+    text-align: center;
+}
+/* Basic CSS Rule for element. This would apply to all p elements on the page. Only p elements would apply to this rule.*/
+p{
+    text-align: center;
+    color: seagreen;
+}
+/* Basic CSS Class for element */
+.change{
+    color: red;
+}
+
+/* Basic CSS rule for ID */
+#h1{
+    color: purple;
+}

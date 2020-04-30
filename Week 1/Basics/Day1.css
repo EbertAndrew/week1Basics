@@ -55,12 +55,20 @@ h1 {
 h5{
     color: purple;
 }
+#top{
+    color: palevioletred;
+}
 h6{
     color: red;
 }
 p{
     color: seagreen;
 }
+
+#demo {
+    color: coral;
+}
+
 body{
     background-color: tan;
 }
