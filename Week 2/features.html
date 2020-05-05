@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Features</title>
+</head>
+<body>
+    <h1> JavaScript Features </h1>
+    <p id="demo"></p>
+
+    <!-- Some JS Features -->
+    <script>
+        // Working with Objects
+        
+        var value = "Some words of Wisdom"; // Global Variable
+        value = 100;
+        document.getElementById("demo").innerHTML = value;
+
+        // Working with Functions
+        function saySomething(a){
+            console.log(a);
+        }
+        saySomething("Hi I'm Andrew");
+        // function cont.
+        function wwO(k){
+
+        var food = "rice"; // Local Variable
+        var recipe = "Grandma's Secret";
+        console.log(food+k+recipe);
+
+        }
+        wwO(value);
+
+        // Built in functions
+        alert(Date());
+        var name = prompt("Enter your name and I will find you");
+
+        alert("Hello "+ name);
+
+    </script>
+</body>
+</html>

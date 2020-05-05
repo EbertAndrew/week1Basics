@@ -2,6 +2,24 @@
 // Once you have created the variables, create on last variable with all the variables added together.
 // HINT: use the + sign to add variables together.
 
+// Global Variables - variables all by themselves
+// Not inside a scope or block : { <-- scope/block -->}
+var someGuy = " John ";
+
+var dayOfParty = 23 ;
+
+var lastGlobal = " Just Relax ";
+
+// Local Variables - variables belong to something
+// Inside a scope/block : { var a = 1; }
+
+function simple(){
+    var a = 1; // Local Variable
+}
+for(var i = 0;i < 10; i++){
+    console.log(i);
+}
+
 var redGreen;
 
 var apple$auce;
