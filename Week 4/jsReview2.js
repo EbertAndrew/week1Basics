@@ -1,5 +1,7 @@
-var name = nameString ("Drew");
-console.log(name);
+function printName(){
+    console.log("Drew");
+}
+
 var length = 3;
 var lastName = "Scuba";
 var x = {firstName:"Andrew", lastName:"Ebert"};
