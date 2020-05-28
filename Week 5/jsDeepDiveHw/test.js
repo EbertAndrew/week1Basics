@@ -1,34 +1,17 @@
-// Object
-var enomaDoor = {
-  material: "Cedar",
-  color: "brown",
-  type: "wood",
-  vintage ? : true,
-  knocker ? : true,
-  size: 10,
-  brand: undefined
-}
-console.log(enomaDoor); 
-console.log(enomaDoor.brand); enomaShoe.brand = "enoma"; 
-console.log("...... Loading ......") 
-console.log(enomaDoor)
+var name = "Supercalifrajalisticexpalidocious";
+var result;
 
-// Function
-function bark(name,weight){
-  if ( weight > 20 ){
-      console.log(name + " says WOOF WOOF ");
-  }else{
-      console.log(name + " says woof woof ");
-  }
-}
-var name;
-var weight;
-bark("rover",23);
-name = "rover";
-weight = 23;
+var overallObj = {
+    name: "Supercalifrajalisticexpalidocious", // String Variable
+    significance: 99, // Number
+    sad: false, // Boolean
+    when: new Date() // Date
+};
 
-// Loop
-var i;
-for (i = 0; i < cars.length; i++) { 
-  text += cars[i] + "<br>";
-} 
+function generIC(word, num, bool, day){
+    console.log(word + num + bool + day);
+}
+
+for(var i = 0; i < 10; i++){
+    generIC(overallObj.name, overallObj.significance, overallObj.sad, overallObj.when);
+}

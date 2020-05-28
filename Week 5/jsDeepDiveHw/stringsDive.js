@@ -1,34 +1,14 @@
-var name = "Supercalifrajalisticexpalidocious";
-var result;
+var overallObj = {
+    name: "Supercalifrajalisticexpalidocious",
+    significance: "absolute", 
+    sad: "plasma", 
+    when: "rave"
+};
 
-result = name.length;
-console.log(result);
+function generIC(word, num, bool, day){
+    console.log(word + num + bool + day);
+}
 
-// function
-
-var func = "function (a, b) { return a + b; }".parseFunction();
-
-// object
-
-var nameOfThang = 'Person';
-var nameOfThingzName = 'The Dude';
-
-var thangs = { Person: {name: 'Legowski'}, Cars: {} };
-var person  = new (eval(thangs[nameOfThang].constructor))();
-person.name = new (eval(thangs.Person.name.constructor))(nameOfThingzName) .toString();
-
-console.log('@thang, #Person', person);
-
-// loop
-
-for(var i = 0 ; i < 10 ; i++){
-    var carStuck = true;
-    if(carStuck == true){
-        console.log("you're stuck");
-        carStuck = false;
-    }
-    else{
-        console.log("drive faster");
-        carStuck = true;
-    }
-  }
+for(var i = 0; i < 3; i++){
+    generIC(overallObj.name, overallObj.significance, overallObj.sad, overallObj.when);
+}
