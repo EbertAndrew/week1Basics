@@ -31,3 +31,9 @@ var mySecNum = 5e9;
 result = parseInt(Infinity);
 
 console.log(result);
+
+result = Number.MIN_VALUE;
+
+console.log(result);
+
+var age = 90;
